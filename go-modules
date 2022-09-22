@@ -1,6 +1,5 @@
 web:
 	github.com/gin-gonic/gin
-	google.golang.org/grpc/cmd/protoc-gen-go-grpc
 
 env:
 	github.com/joho/godotenv
@@ -17,3 +16,12 @@ grpc:
 
 functional programming:
     github.com/samber/lo
+
+jwt:
+    github.com/dgrijalva/jwt-go/v4
+
+Postgres driver:
+    github.com/lib/pq
+
+Redis:
+    github.com/go-redis/redis/v8
