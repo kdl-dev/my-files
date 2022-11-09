@@ -1,5 +1,6 @@
 web:
 	github.com/gin-gonic/gin
+	github.com/gofiber/fiber/v2
 
 env:
 	github.com/joho/godotenv
@@ -25,3 +26,6 @@ Postgres driver:
 
 Redis:
     github.com/go-redis/redis/v8
+
+Parsing html:
+	github.com/PuerkitoBio/goquery
